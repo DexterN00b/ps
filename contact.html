@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <h3><strong>Contact Me</strong></h3>
+    <ul>
+      <li><strong>Email:</strong>munna67.ms@gmail.com</li>
+      <li><strong>Cell No:</strong>+92331-9319887</li>
+      <li>
+        <strong>Facebook:</strong
+        ><a href="https://www.facebook.com/profile.php?id=100084701904896"
+          >Mian Mohsin</a
+        >
+      </li>
+    </ul>
+    <form action="index.html" method="post">
+      <fieldset>
+        <legend>Personal Info</legend>
+        <label>Your Name:</label><br />
+        <input type="text" placeholder="type your name here" /><br />
+        <label>Your Email:</label><br />
+        <input type="email" placeholder="type your email here" /><br />
+        <label for="pass">Your Password:</label><br />
+        <input
+          type="password"
+          placeholder="type your password here"
+          name="password"
+          id="pass"
+        /><br />
+        <input type="submit" value="Sign in" />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>What's your GENDER?</legend>
+        <input type="checkbox" name="Male" id="Male" checked />
+        <label for="Male">Male</label><br />
+        <input type="checkbox" name="Female" id="Female" />
+        <label for="female">Female</label><br />
+        <input
+          type="checkbox"
+          name="Rather not to say"
+          id="Rather not to say"
+        />
+        <label for="">Rather not to say</label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Do you want to continue</legend>
+        <input type="radio" name="Yes" id="yes" checked />
+        <label for="yes">Yes</label><br />
+        <input type="radio" name="no" id="no" />
+        <label for="no">No</label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Audience range</legend>
+        <input type="range" name="people" id="people" min="0" max="100" />
+        <label for="people">People</label><br />
+        <input type="range" name="age" id="age" min="18" max="60" />
+        <label for="age">Age</label>
+      </fieldset>
+      <fieldset>
+        <legend>Your message</legend>
+        <textarea
+          name="Your message"
+          id="message"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" value="continue" />
+      </fieldset>
+    </form>
+  </body>
+</html>
